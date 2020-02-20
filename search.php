@@ -54,13 +54,18 @@
 
                         <div class="text bg-white p-4">
                             <a href="<?php the_permalink();?>"><h2 class="text-center text-primary"><?php the_title();?></h2></a>
+                            <div class="meta mb-4 text-center"><em><?php echo the_author_posts_link();?></em><span class="mx-2">&bullet;</span> <a href="<?php the_permalink(); ?>"><?php echo get_the_date();?></a></div>
                             <p class="text-justify mt-5"><?php the_content();?></p>
                         </div>
                     </div>
                 </div>
                 <?php endwhile;?>
             </div>
-
+			 <div class="col-md-8 offset-md-2 text-center my-5">
+				<div class="block-27 text-center">
+					<?php the_posts_pagination();?>
+				</div>
+			</div>
         </div>
     </div>
 </section>

@@ -3,7 +3,7 @@ function educulture_testimonials_metabox( $metaboxes ) {
     $metaboxes[] = array(
         'id'        => 'educulture_testimonials',
         'title'     => __( 'Testimonials Details', 'educulture' ),
-        'post_type' => 'educulture_testimonials',
+        'post_type' => 'testimonials',
         'context'   => 'normal',
         'priority'  => 'default',
         'sections'  => array(

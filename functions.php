@@ -258,10 +258,10 @@ function educulture_excerpt_more( $more ) {
     return $more;
 }
 add_filter( 'excerpt_more', 'educulture_excerpt_more' );
-function wpdocs_custom_excerpt_length( $length ) {
+function educulture_custom_excerpt_length( $length ) {
     return 20;
 }
-add_filter( 'excerpt_length', 'wpdocs_custom_excerpt_length', 999 );
+add_filter( 'excerpt_length', 'educulture_custom_excerpt_length', 999 );
 function educulture_search_form( $form ) {
     $homedir      = home_url( "/" );
     $label        = __( "Search for:", "educulture" );

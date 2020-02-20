@@ -173,12 +173,12 @@ function educulture_about_us_customize_register($wp_educulture){
 		'title'           => __( 'Study Abroad Settings', 'educulture' ),
 		'priority'        => '40',
 		'active_callback' => function () {
-			if(is_page_template('page-templates/study-abroads.php')){
+			if(is_page_template('page-templates/studyabroads.php')){
 				return true;
 			}
 			return false;
 
-			return is_page_template( 'page-templates/study.php' );
+			return is_page_template( 'page-templates/studyabroads.php' );
 		}
 	) );
      

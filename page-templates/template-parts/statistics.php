@@ -6,7 +6,7 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-8 text-center heading-section heading-section-black ftco-animate">
-                <h2 class="mb-4 text-white" id="educulture-statistics-heading"><?php echo esc_html(get_theme_mod('educulture_statistics_heading'));?></h2>
+                <h2 class="mb-4 text-white" id="educulture-statistics-heading"><?php echo esc_html(get_theme_mod('educulture_statistics_heading',__('10+ Years Experience','educulture')));?></h2>
                 <p class="text-white mb-4 text-center" id="educulture-statistics-section-desc"><?php echo esc_html(get_theme_mod('educulture_statistics_description'));?></p>
             </div>
         </div>

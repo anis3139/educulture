@@ -3,7 +3,7 @@
         <div class="row justify-content-center mb-5 pb-2">
             <div class="col-md-8 text-center heading-section ftco-animate">
                 <h2 class="mb-4" id="educulture-testimonials-heading"><?php echo esc_html(get_theme_mod('educulture_testimonials_heading',__('What Parents Says About Us','educulture')));?></h2>
-                <p id="educulture-testimonials-description"><?php echo esc_html(get_theme_mod('educulture_testimonials__description'));?></p>
+                <p id="educulture-testimonials-description"><?php echo esc_html(get_theme_mod('educulture_testimonials_description'));?></p>
             </div>
         </div>
 
@@ -31,7 +31,7 @@
                                 <span class="quote d-flex align-items-center justify-content-center">
                                     <i class="icon-quote-left"></i>
                                 </span>
-                                <p class="testimony-hight overflow-hidden"><?php echo esc_html(wp_trim_words(get_the_excerpt(),40));?></p>
+                                <p class="testimony-hight overflow-hidden"><?php echo esc_html(wp_trim_words(get_the_content(),50));?></p>
                                 <p class="name"><?php the_title();?></p>
                                 <?php if($educulture_testimonials_meta):?>
                                 <span class="position"><?php 

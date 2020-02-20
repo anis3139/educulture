@@ -8,7 +8,71 @@ function educulture_customizer_settings( $wp_educulture ) {
 		'priority' => 40, 
 	) );
 	
-   
+/*   ---------------
+	   Topbar Settings
+--------------------*/
+	
+	$wp_educulture->add_section( 'educulture_topbar', array(
+		'title'           => __( 'Topbar Settings', 'educulture' ),
+		'panel' => 'font_page',
+		'priority'        => '40',
+		'active_callback' => function () {
+			if(is_page_template('page-templates/landing.php')){
+				return true;
+			}
+			return false;
+
+			return is_page_template( 'page-templates/landing.php' );
+		}
+	) );
+	
+	  $wp_educulture->add_setting( 'educulture_mobile', array(
+		'default'   => "008801816366535",
+		'transport' => 'postMessage',
+	) );
+
+	$wp_educulture->add_control( 'educulture_mobile', array(
+		'label'    => __( 'Phone', 'educulture' ),
+		'section'  => 'educulture_topbar',
+		'type'     => 'text',
+
+	) );
+    
+        
+    $wp_educulture->selective_refresh->add_partial('educulture_mobile',array(
+		'selector'=>'#educulture-mobile',
+		'settings'=>'educulture_mobile',
+		'render_callback'=>function(){
+			return get_theme_mod('educulture_mobile');
+		}
+	));     
+    
+    
+    $wp_educulture->add_setting( 'educulture_mail', array(
+		'default'   => "anis904692@gmail.com",
+		'transport' => 'postMessage',
+	) );
+
+	$wp_educulture->add_control( 'educulture_mail', array(
+		'label'    => __( 'Email', 'educulture' ),
+		'section'  => 'educulture_topbar',
+		'type'     => 'text',
+
+	) );
+    
+        
+    $wp_educulture->selective_refresh->add_partial('educulture_mail',array(
+		'selector'=>'#educulture-mail',
+		'settings'=>'educulture_mail',
+		'render_callback'=>function(){
+			return get_theme_mod('educulture_mail');
+		}
+	));
+	
+	
+	
+	
+	
     /**
 	 * Featured Post Settings
 	 */
@@ -441,7 +505,7 @@ function educulture_customizer_settings( $wp_educulture ) {
 
      
     $wp_educulture->add_setting( 'educulture_expert_heading', array(
-		'default'   => "",
+		'default'   => "Briefly about us",
 		'transport' => 'postMessage',
 	) );
 
@@ -459,8 +523,23 @@ function educulture_customizer_settings( $wp_educulture ) {
 			return get_theme_mod('educulture_expert_heading');
 		}
 	));
+          
+    $wp_educulture->add_setting( 'educulture_expert_description', array(
+		'default'   => "",
+		'transport' => 'postMessage',
+	) );
+
+	$wp_educulture->add_control( 'educulture_expert_description', array(
+		'label'    => __( 'Special Featured Description', 'educulture' ),
+		'description'    => __( 'Expert Section Description', 'educulture' ),
+		'section'  => 'educulture_special_featured',
+		'type'     => 'textarea'
+	) );
     
-    
+	
+	
+	
+	
       $wp_educulture->add_setting( 'educulture_expert_content_heading_one', array(
 		'default'   => "What We Are",
 		'transport' => 'postMessage',
@@ -640,7 +719,7 @@ function educulture_customizer_settings( $wp_educulture ) {
 	$wp_educulture->add_control( 'educulture_blog_description', array(
 		'label'    => __( 'Blog Section Description', 'educulture' ),
 		'section'  => 'educulture_front_page',
-		'type'     => 'text'
+		'type'     => 'textarea'
 	) );
         
    /* ---------------
@@ -854,7 +933,7 @@ function educulture_customizer_settings( $wp_educulture ) {
 	
 	
     $wp_educulture->add_setting( 'educulture_statistics_heading', array(
-		'default'   => "",
+		'default'   => "10+ Years Experience",
 		'transport' => 'postMessage',
 	) );
 

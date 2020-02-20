@@ -30,17 +30,11 @@
                 </div>
                 <?php endwhile;?>
             </div>
-            <div class="row no-gutters my-5">
-                <div class="col-md-8 offset-md-2 text-center">
-                    <div class="block-27 text-center">
-                        <?php the_posts_pagination(
-                        array(
-                        screen_reader_text=>" ",
-                            )
-                        );?>
-                    </div>
-                </div>
-            </div>
+            <div class="col-md-8 offset-md-2 text-center my-5">
+				<div class="block-27 text-center">
+					<?php the_posts_pagination();?>
+				</div>
+			</div>
         </div>
     </div>
 </section>

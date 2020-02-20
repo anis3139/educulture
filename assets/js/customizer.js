@@ -160,6 +160,11 @@
     experiance
     ----------------*/
     
+    wp.customize('educulture_expert_description',function(value){
+        value.bind(function(newvalue){
+            $("#educulture-expert-description").html(newvalue);
+        });
+    }); 
     wp.customize('educulture_expert_content_heading_one',function(value){
         value.bind(function(newvalue){
             $("#educulture-expert-content-heading-one").html(newvalue);
