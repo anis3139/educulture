@@ -44,17 +44,17 @@
 		<div class="row">
 			<div class="col-md-12 row text-center">
 				<div class="col-md-8 text-white">
-					<?php echo _e('Copyright ©2020 All rights reserved | This template is made with by  ', 'jurist') ?><a href="http://www.rainyforest.xyz">
+					<?php echo _e('Copyright ©2020 All rights reserved | This template is made with by  ', 'educulture') ?><a href="http://www.rainyforest.xyz">
 						<span class="copyright">
-							<?php _e('Anis Arronno','jurist'); ?>
+							<?php _e('Anis Arronno','educulture'); ?>
 						</span>
 					</a>
 
 				</div>
 				<div class="col-md-4 text-white">
-					<?php _e('Powered by','jurist');?> <a href="http://www.rainyforest.xyz">
+					<?php _e('Powered by','educulture');?> <a href="http://www.rainyforest.xyz">
 						<span class="copyright">
-							<?php _e('Rainy Forest','jurist') ;?>
+							<?php _e('Rainy Forest','educulture') ;?>
 						</span>
 					</a>
 				</div>

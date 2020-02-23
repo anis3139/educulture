@@ -983,7 +983,7 @@
   top: 10px;
 }
 
-.cs-field-color_picker .cs-alpha-wrap {
+.cs-field-color_picker .cs-educulture-wrap {
   display: none;
   position: relative;
   top: -1px;
@@ -993,13 +993,13 @@
   border-top: none;
   background-color: #fff;
 }
-.cs-field-color_picker .cs-alpha-slider {
+.cs-field-color_picker .cs-educulture-slider {
   position: absolute;
   width: 190px;
   margin-left: 2px;
   height: 18px;
 }
-.cs-field-color_picker .cs-alpha-slider .ui-slider-handle {
+.cs-field-color_picker .cs-educulture-slider .ui-slider-handle {
   position: absolute;
   top: -3px;
   bottom: -3px;
@@ -1020,7 +1020,7 @@
   -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
 }
-.cs-field-color_picker .cs-alpha-slider .ui-slider-handle:before {
+.cs-field-color_picker .cs-educulture-slider .ui-slider-handle:before {
   content: " ";
   position: absolute;
   left: -2px;
@@ -1032,7 +1032,7 @@
   -webkit-border-radius: 3px;
   border-radius: 3px;
 }
-.cs-field-color_picker .cs-alpha-slider-offset {
+.cs-field-color_picker .cs-educulture-slider-offset {
   height: 18px;
   width: 200px;
   background: url(../images/checkerboard.png) repeat-y center left scroll #fff;
@@ -1043,7 +1043,7 @@
   -webkit-border-radius: 2px;
   border-radius: 2px;
 }
-.cs-field-color_picker .cs-alpha-text {
+.cs-field-color_picker .cs-educulture-text {
   position: absolute;
   top: 12px;
   right: 10px;

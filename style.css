@@ -328,7 +328,7 @@ Copyright
 /*--------------------------------------------------------------
 # Normalize
 --------------------------------------------------------------*/
-.jurist-menu > h1 > a {
+.educulture-menu > h1 > a {
 	color: #fff;
 	font-size: 40px;
 	font-weight: bold;
@@ -606,7 +606,7 @@ search form
 		margin-left: 10%;
 	}
 
-	.jurist-newsletter {
+	.educulture-newsletter {
 		margin-left: 10%;
 	}
 }
@@ -656,11 +656,16 @@ Blog Section
 /*---------------
 Apply Now
 ------------------*/
-#educulture-apply-phone {
+#eduhub-apply-phone {
 	font-size: 50px;
 	font-weight: bold;
 }
-
+@media only screen and (max-width:720px) {
+	#eduhub-apply-phone {
+	font-size: 35px;
+	
+}
+}
 /*-----------
 client-area
 ----------------*/
@@ -827,11 +832,20 @@ About Page
 	width: 30%;
 }
 
+#eduhub-about-featured-image>img{
+	width:100%;
+	height:auto;
+}
 
 /*
 -------------
 Apply Form
 ---------------*/
+.apply-now-img{
+	background-size: 100% auto;
+      background-repeat: no-repeat;
+      background-position: center center;
+}
 select:required:invalid {
 	color: red;
 }
@@ -1006,6 +1020,32 @@ nav.navbar ul > li > ul.sub_menu > li:not(:last-child) {
 
 
 
+@media (max-width: 720px) {
+	.ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
+		padding-left: 10%;
+		padding-right: 0;
+		padding-top: .9rem;
+		padding-bottom: .9rem;
+		color: #000;
+		background-color: #fff;
+	}
+
+	.ftco-navbar-light .navbar-nav > .nav-item > .nav-link:hover {
+		color: blue;
+	}
+	.ftco-navbar-light.scrolled.awake {
+		margin-top: 0px;
+		-webkit-transition: .1s all ease-out;
+		-o-transition: .1s all ease-out;
+		transition: .1s all ease-out;
+	}
+}
+
+.ftco-navbar-light.scrolled .nav-link {
+	color: #000 !important;
+}
+
+
 
 /*
 -------------------
@@ -1013,6 +1053,10 @@ Study Abroad
 ----------------------*/
 
 
+#eduhub-study-abroad-image>img{
+	width:100%;
+	height:auto;
+}
 .study-country-item {
 	margin: 5px;
 	background-color: #fe4641;
@@ -1036,23 +1080,80 @@ Study Abroad
 	background-color: #E43F3A;
 	
 }
-
-@media only screen and (max-width:720px) {
-.educulture-footer{
-	text-align: center;
+/*
+-----------
+slider
+--------------
+*/
+@media only screen and (max-width:768px) {
+.owl-carousel.home-slider .slider-item {
+	background-size: 100% 100%;
+	height: 350px;
+	clear:both;
 }
-	.navbar-brand{
-	position: absolute;
-		margin-left: 20px;
+	.owl-carousel.home-slider .slider-item .slider-text{
+		height: 350px;
 	}
-
+	.owl-carousel.home-slider {
+    height: auto;
+    
+}
+}
+@media only screen and (max-width:576px) {
+.owl-carousel.home-slider .slider-item {
+	background-size: 100% 100%;
+	height: 280px;
+	clear:both;
+}
+	.owl-carousel.home-slider .slider-item .slider-text{
+		height: 280px;
+	}
+	.owl-carousel.home-slider {
+    height: auto;
+    
+}
+}
+@media only screen and (max-width:480px) {
+.owl-carousel.home-slider .slider-item {
+	background-size: 100% 100%;
+	height: 220px;
+	clear:both;
+}
+	.owl-carousel.home-slider .slider-item .slider-text{
+		height: 220px;
+	}
+	.owl-carousel.home-slider {
+    height: auto;
+    
+}
+}
+@media only screen and (max-width:360px) {
+.owl-carousel.home-slider .slider-item {
+	background-size: 100% 100%;
+	height: 180px;
+	clear:both;
+}
+	.owl-carousel.home-slider .slider-item .slider-text{
+		height: 180px;
+	}
+	.owl-carousel.home-slider {
+    height: auto;
+    
+}
+}
+.owl-carousel.owl-drag .owl-item {
+	-ms-touch-action: pan-y;
+	touch-action: pan-y;
 }
 
 
-
-
-
-
+@media screen and (max-width: 782px){
+html {
+    margin-top:0px !important;
+    margin-left: 0px;
+	padding-left:0px;
+}
+}
 
 
 

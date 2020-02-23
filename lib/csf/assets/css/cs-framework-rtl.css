@@ -121,17 +121,17 @@
   margin-right: 5px;
 }
 
-.cs-field-color_picker .cs-alpha-slider {
+.cs-field-color_picker .cs-educulture-slider {
   margin-left: 0;
   margin-right: 2px;
 }
-.cs-field-color_picker .cs-alpha-slider .ui-slider-handle {
+.cs-field-color_picker .cs-educulture-slider .ui-slider-handle {
   margin: 0 -11px;
 }
-.cs-field-color_picker .cs-alpha-slider-offset {
+.cs-field-color_picker .cs-educulture-slider-offset {
   background-position: center right;
 }
-.cs-field-color_picker .cs-alpha-text {
+.cs-field-color_picker .cs-educulture-text {
   right: auto;
   left: 10px;
 }

@@ -2431,7 +2431,7 @@ if ( ! class_exists( 'TGMPA_List_Table' ) ) {
 		}
 
 		/**
-		 * Sort plugins by Required/Recommended type and by alphabetical plugin name within each type.
+		 * Sort plugins by Required/Recommended type and by educulturebetical plugin name within each type.
 		 *
 		 * @since 2.5.0
 		 *

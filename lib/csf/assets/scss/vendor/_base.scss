@@ -540,7 +540,7 @@
 
 .cs-field-color_picker{
 
-  .cs-alpha-wrap{
+  .cs-educulture-wrap{
     display: none;
     position: relative;
     top: -1px;
@@ -551,7 +551,7 @@
     background-color: #fff;
   }
 
-  .cs-alpha-slider{
+  .cs-educulture-slider{
     position: absolute;
     width: 190px;
     margin-left: 2px;
@@ -587,7 +587,7 @@
     }
   }
 
-  .cs-alpha-slider-offset{
+  .cs-educulture-slider-offset{
     height: 18px;
     width: 200px;
     background: url(../images/checkerboard.png) repeat-y center left scroll #fff;
@@ -595,7 +595,7 @@
     @include border-radius(2px);
   }
 
-  .cs-alpha-text{
+  .cs-educulture-text{
     position: absolute;
     top: 12px;
     right: 10px;

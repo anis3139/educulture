@@ -259,7 +259,7 @@ function educulture_excerpt_more( $more ) {
 }
 add_filter( 'excerpt_more', 'educulture_excerpt_more' );
 function educulture_custom_excerpt_length( $length ) {
-    return 20;
+    return 30;
 }
 add_filter( 'excerpt_length', 'educulture_custom_excerpt_length', 999 );
 function educulture_search_form( $form ) {

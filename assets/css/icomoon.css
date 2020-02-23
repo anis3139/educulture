@@ -1110,10 +1110,10 @@
 .icon-file-text:before {
   content: "\f15c";
 }
-.icon-sort-alpha-asc:before {
+.icon-sort-educulture-asc:before {
   content: "\f15d";
 }
-.icon-sort-alpha-desc:before {
+.icon-sort-educulture-desc:before {
   content: "\f15e";
 }
 .icon-sort-amount-asc:before {
@@ -4503,7 +4503,7 @@
 .icon-sort2:before {
   content: "\e164";
 }
-.icon-sort_by_alpha:before {
+.icon-sort_by_educulture:before {
   content: "\e053";
 }
 .icon-spa:before {

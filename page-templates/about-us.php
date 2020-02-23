@@ -11,7 +11,7 @@
 		<div class="row">
 			<div class="col-md-6 order-md-last wrap-about py-5 wrap-about bg-light">
 				<div class="text px-4 ftco-animate">
-					<h2 class="mb-4" id="educulture-about-content-heading"><?php echo esc_html(get_theme_mod('educulture_about_featured_content_heading',__('Welcome to visaHub','educulture')));?></h2>
+					<h2 class="mb-4" id="educulture-about-content-heading"><?php echo esc_html(get_theme_mod('educulture_about_featured_content_heading',__('Welcome to educulture','educulture')));?></h2>
 					<p id="educulture-about-content"><?php echo wp_kses_post(get_theme_mod('educulture_about_featured_content',__('On her way she met a copy. The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times and everything that was left from its origin would be the word.
 Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. And if she hasn’t been rewritten, then they are still using her.','educulture')));?></p>
 				</div>

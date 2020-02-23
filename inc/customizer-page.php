@@ -22,7 +22,7 @@ function educulture_about_us_customize_register($wp_educulture){
 	) );
      
     $wp_educulture->add_setting( 'educulture_about_featured_content_heading', array(
-		'default'   => "Welcome to visaHub",
+		'default'   => "Welcome to educulture",
 		'transport' => 'postMessage',
 	) );
 
